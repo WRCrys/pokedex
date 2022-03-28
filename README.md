@@ -41,7 +41,7 @@ or
     yarn install
 
 Before you start app, you must run the server app pokedex.
-Run server is pretty simple, you just need to commands
+Run server is pretty simple, you just need this commands
 
     npm run db
 or
@@ -56,7 +56,17 @@ or
 
     yarn run tunnel
 
+### Pay Attention
+You have pay attention on link provided from ngrok.
+Probably ngrok will provide a different link.
+Copy this link and update the file link inside the src folder:
 
+    services/api.ts
+
+There are two axios instaces, you will update first instance.
+
+
+### Finally
 Finally, you are able to start the application, then run:
 
 For android device:
