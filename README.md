@@ -57,7 +57,7 @@ or
     yarn run tunnel
 
 ### Pay Attention
-You have pay attention on link provided from ngrok.
+You have to pay attention on link provided from ngrok.
 Probably ngrok will provide a different link.
 Copy this link and update the file link inside the src folder:
 
